@@ -28,6 +28,7 @@ saveLocationPath = "C:\\Users\\johndoe\\Desktop\\BAG\\"
 pictureTake.setupManual(saveLocationPath)
 
 ```
+When this is running you will be shown a depth and color pciutre from your camera. Click a location on either picutre to set a point of intrest. After clicking type r to refresh the image. When saticified with point of intrest location hit enter on your keyboard.
 ## Alternative approaches to starting picture collection
 
 to use the same setting as used by Virginia Tech
