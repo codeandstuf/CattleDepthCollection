@@ -9,6 +9,11 @@ This extension provides tools to easily collect depth and color data from a top 
 - Realsense SDK Instrucitons for Windows https://www.youtube.com/watch?v=EOJHsNIayio&ab_channel=IntelRealSense
 - Realsense SDK Instrucitons for Mac https://dev.intelrealsense.com/docs/macos-installation-for-intel-realsense-sdk
 
+#pip install 
+```
+pip install CattleDepthCollection==0.1.0
+```
+
 # How to collect picutres 
 
 ```
