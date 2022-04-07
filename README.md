@@ -5,6 +5,7 @@ This extension provides tools to easily collect depth and color data from a top 
 ## Requierments
 - python (any version since 3.6 or newer)
 - code editor (Visual Studio Code is what I reccomend)
+- Realsense SDK https://www.intelrealsense.com/sdk-2/
 
 # How to collect picutres 
 
