@@ -20,7 +20,9 @@ pictureTake = ps()
 #location to save pictures
 #make sure to convert all \ to \\
 #example, if you would like to save the picutres to a folder in your desktop, saveLocaitonPath will look something like
-saveLocationPath = "C:\\Users\\johndoe\\Desktop\\BAG\\"
+saveLocationPath = "C:\\Users\\johndoe\\Desktop\\BAG\\" #WINDOWS
+saveLocationPathMac = "X: /Users/username/Desktop" #MAC
+
 #files will be saved in a folder named BAG 
 
 #Lets user set the point of intrest, depth, number of picutres, and time inbetween picutres
