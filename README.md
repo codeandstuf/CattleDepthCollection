@@ -14,14 +14,14 @@ Picturecapture, Videocapture, and BAGtoPNG can only be run on a Windows platform
 - python (any version since 3.6 to 3.9)
 - code editor (Visual Studio Code is what I reccomend)
 
+
+
+
+# Windows Instructions
 ## pip install 
 ```
 pip install CattleRealsense==0.1.7
 ```
-
-
-# Windows Instructions
-
 ## How to collect picutres 
 
 ```
