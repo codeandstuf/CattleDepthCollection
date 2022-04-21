@@ -118,10 +118,10 @@ con.convert(inputFolder, outputFolder, toolsPath):
 To get an accurate threshold it is imporant to crop the image horizontally to the smallest area needed.
 This prevents the surrounding objects from interfereing. 
 When running this program the first picutre in from inputFolder will be shown.
- -You should click the upper bound, lower bound, left bount, right bound in that order.
- -After clicking the mouse 4 times hit enter on your keyboard
- -The cropped photo will appear. If you are happy with the result hit enter again to run thresholding.
- -If you would like to select new crop values type r
+ - You should click the upper bound, lower bound, left bount, right bound in that order.
+ - After clicking the mouse 4 times hit enter on your keyboard
+ - The cropped photo will appear. If you are happy with the result hit enter again to run thresholding.
+ - If you would like to select new crop values type r
 ```
 from CattleRealsense.ThresholdExtract import ThresholdExtract as te
 
@@ -136,17 +136,33 @@ extract.setCrop(inputFolder, outputFolder)
 
 ## Setting up Visual Studio Code
 Follow these instructions if you would like to use Visual Studio Code (VSC)
- -download VSC
- -open VSC click file --> new file
- -click 'select a language' and chose python
- -type command s and enter desired name followed by .py
- -type ```print('Hello World')``` into the file. save the file
- -on the top toolbar select Run --> Run Without Debugging 
- -if you are asked to install an extension do so. The top option from the search bar should work fine. run the program again
- -if 'Hello World' is printed in the terminal you are good to continue. 
+ - download VSC
+ - open VSC click file --> new file
+ - click 'select a language' and chose python
+ - type command s and enter desired name followed by .py
+ - type ```print('Hello World')``` into the file. save the file
+ - on the top toolbar select Run --> Run Without Debugging 
+ - if you are asked to install an extension do so. The top option from the search bar should work fine. run the program again
+ - if 'Hello World' is printed in the terminal you are good to continue. 
 
 ## Intalling CattleRealsense
  In the terminal type ```python3 -m pip install CattleRealsense==0.1.7``` or ```sudo python3 -m pip install CattleRealsense==0.1.7```
 
-## Running 
-saveLocationPathMac = "X: /Users/username/Desktop" #MAC
+## How to threshold png files
+To get an accurate threshold it is imporant to crop the image horizontally to the smallest area needed.
+This prevents the surrounding objects from interfereing. 
+When running this program the first picutre in from inputFolder will be shown.
+ - You should click the upper bound, lower bound, left bount, right bound in that order.
+ - After clicking the mouse 4 times hit enter on your keyboard
+ - The cropped photo will appear. If you are happy with the result hit enter again to run thresholding.
+ - If you would like to select new crop values type r
+```
+from CattleRealsense.ThresholdExtract import ThresholdExtract as te
+
+extract = te()
+
+#inputFolder = saveLocationPathMac = "X: /Users/username/Desktop" #if files are on desktop
+#outputFolder = path to save threshold results
+extract.setCrop(inputFolder, outputFolder)
+```
+
