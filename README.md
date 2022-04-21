@@ -5,12 +5,12 @@ This extension provides tools to easily collect depth and color data from a top 
 # WARNING
 Picturecapture, Videocapture, and ConvertToPNG can only be run on a Windows platform. ThresholdExtract can be run on Windows or Mac.
 
-## Requierments: Windows
+## Requirments: Windows
 - python (any version 3.6 to 3.9)
-- code editor (Visual Studio Code is what I reccomend)
+- code editor (Visual Studio Code is what I recommend)
 - Realsense SDK https://www.intelrealsense.com/sdk-2/
-- Realsense SDK install instrucitons for Windows https://www.youtube.com/watch?v=EOJHsNIayio&ab_channel=IntelRealSense
-## Requierments: Mac
+- Realsense SDK install instructions for Windows https://www.youtube.com/watch?v=EOJHsNIayio&ab_channel=IntelRealSense
+## Requirments: Mac
 - python (any version since 3.6 to 3.9)
 - code editor (Visual Studio Code is what I reccomend)
 
@@ -25,7 +25,7 @@ Picturecapture, Videocapture, and ConvertToPNG can only be run on a Windows plat
 ```
 pip install CattleRealsense==0.1.7
 ```
-## How to collect picutres 
+## How to collect pictures 
 
 ```
 from CattleRealsense.PictureCapture import PictureCapture as ps
@@ -38,11 +38,11 @@ pictureTake = ps()
 #example, if you would like to save the picutres to a folder in your desktop, saveLocaitonPath will look something like
 saveLocationPath = "C:\\Users\\johndoe\\Desktop\\BAG\\" #files will be saved in a folder named BAG 
 
-#Lets user set the point of intrest, depth, number of picutres, and time inbetween picutres
-#picture colleciton will start after setup is complete
+#Lets user set the point of interest, depth, number of pictures, and time in between pictures
+#picture collection will start after setup is complete
 pictureTake.setupManual(saveLocationPath)
 ```
-When this is running you will be shown a depth and color pciutre from your camera. Click a location on either picutre to set a point of intrest. After clicking type r to refresh the image. When saticified with point of intrest location hit enter on your keyboard.
+When this is running you will be shown a depth and color picture from your camera. Click a location on either picture to set a point of interest. After clicking type r to refresh the image. When satisfied with point of interest location hit enter on your keyboard.
 ## Alternative approaches to starting picture collection
 
 to use the same setting as used by Virginia Tech (x = 500, y = 360, distance_to_ground = 3 meters, 
@@ -118,10 +118,9 @@ con.convert(inputFolder, outputFolder, toolsPath):
 ```
 
 ## How to threshold png files
-To get an accurate threshold it is imporant to crop the image horizontally to the smallest area needed.
-This prevents the surrounding objects from interfereing. 
-When running this program the first picutre in from inputFolder will be shown.
- - You should click the upper bound, lower bound, left bount, right bound in that order.
+To get an accurate threshold it is important to crop the image horizontally to the smallest area needed. 
+This prevents the surrounding objects from interfering. When running this program the first picture in from inputFolder will be shown.
+ - You should click the upper bound, lower bound, left bound, right bound in that order.
  - After clicking the mouse 4 times hit enter on your keyboard
  - The cropped photo will appear. If you are happy with the result hit enter again to run thresholding.
  - If you would like to select new crop values type r
@@ -165,15 +164,14 @@ Follow these instructions if you would like to use Visual Studio Code (VSC)
  - if you are asked to install an extension do so. The top option from the search bar should work fine. run the program again
  - if 'Hello World' is printed in the terminal you are good to continue. 
 
-## Intalling CattleRealsense
+## Installing CattleRealsense
 In the terminal type ```python3 -m pip install CattleRealsense==0.1.7``` or ```sudo python3 -m pip install CattleRealsense==0.1.7```. 
-Make sure to pip install all the requiered packages listed at the top of this page.
+Make sure to pip install all the required packages listed at the top of this page.
 
 ## How to threshold png files
-To get an accurate threshold it is imporant to crop the image horizontally to the smallest area needed.
-This prevents the surrounding objects from interfereing. 
-When running this program the first picutre in from inputFolder will be shown.
- - You should click the upper bound, lower bound, left bount, right bound in that order.
+To get an accurate threshold it is important to crop the image horizontally to the smallest area needed.
+This prevents the surrounding objects from interfering. When running this program the first picture in from inputFolder will be shown.
+ - You should click the upper bound, lower bound, left bound, right bound in that order.
  - After clicking the mouse 4 times hit enter on your keyboard
  - The cropped photo will appear. If you are happy with the result hit enter again to run thresholding.
  - If you would like to select new crop values type r
