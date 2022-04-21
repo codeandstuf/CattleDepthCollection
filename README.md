@@ -130,9 +130,26 @@ from CattleRealsense.ThresholdExtract import ThresholdExtract as te
 
 extract = te()
 
-#inputFolder = path to .png files
-#outputFolder = path to save threshold results
+inputFolder = path to .png files
+outputFolder = path to save threshold results
 extract.setCrop(inputFolder, outputFolder)
+```
+## Alternative to threshold png files
+To prevent having to setup the crop every time you may input the parameters directly.
+```
+from CattleRealsense.ThresholdExtract import ThresholdExtract as te
+
+inputFolder = path to .png files
+outputFolder = path to save threshold results
+extract = te()
+
+extract.extract(y1Set, y2Set, x1set , x2set, inputFolder, outputFolder)
+#y1Set = Upper bound y
+#y2Set = Lower bound y
+#x1Set = Left bound
+#x2Set = Right bound
+#inputFolder = folder to read from
+#outputFolder = folder to output to
 ```
 
 # Mac Instructions 
