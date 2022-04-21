@@ -3,7 +3,7 @@
 This extension provides tools to easily collect depth and color data from a top view of cattle
 
 # WARNING
-Picturecapture, Videocapture, and BAGtoPNG can only be run on a Windows platform. Thresholding can be run on Windows or Mac.
+Picturecapture, Videocapture, and ConvertToPNG can only be run on a Windows platform. ThresholdExtract can be run on Windows or Mac.
 
 ## Requierments: Windows
 - python (any version 3.6 to 3.9)
