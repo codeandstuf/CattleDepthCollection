@@ -14,7 +14,7 @@ Picturecapture, Videocapture, and BAGtoPNG can only be run on a Windows platform
 - python (any version since 3.6 to 3.9)
 - code editor (Visual Studio Code is what I reccomend)
 
-# Package Requierments
+## Package Requierments
 - opencv-python
 - keyboard
 - numpy
