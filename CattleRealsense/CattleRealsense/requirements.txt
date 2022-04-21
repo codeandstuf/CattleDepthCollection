@@ -1,0 +1,9 @@
+pytest-runner
+datetime
+opencv-python
+numpy
+imutils
+pynput
+tk
+pyrealsense2
+keyboard
