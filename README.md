@@ -140,7 +140,7 @@ Follow these instructions if you would like to use Visual Studio Code (VSC)
  -open VSC click file --> new file
  -click 'select a language' and chose python
  -type command s and enter desired name followed by .py
- -type ```print('Hello World') into the file. save the file
+ -type ```print('Hello World')``` into the file. save the file
  -on the top toolbar select Run --> Run Without Debugging 
  -if you are asked to install an extension do so. The top option from the search bar should work fine. run the program again
  -if 'Hello World' is printed in the terminal you are good to continue. 
