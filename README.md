@@ -5,17 +5,20 @@ This extension provides tools to easily collect depth and color data from a top 
 # WARNING
 Picturecapture, Videocapture, and BAGtoPNG can only be run on a Windows platform. Thresholding can be run on Windows or Mac.
 
-## Requierments Windows
-- python (any version since 3.6 to 3.9)
+## Requierments: Windows
+- python (any version 3.6 to 3.9)
 - code editor (Visual Studio Code is what I reccomend)
 - Realsense SDK https://www.intelrealsense.com/sdk-2/
-- Realsense SDK Instrucitons for Windows https://www.youtube.com/watch?v=EOJHsNIayio&ab_channel=IntelRealSense
-## Requierments Mac
+- Realsense SDK install instrucitons for Windows https://www.youtube.com/watch?v=EOJHsNIayio&ab_channel=IntelRealSense
+## Requierments: Mac
 - python (any version since 3.6 to 3.9)
 - code editor (Visual Studio Code is what I reccomend)
 
-
-
+# Package Requierments
+- opencv-python
+- keyboard
+- numpy
+- imutils
 
 # Windows Instructions
 ## pip install 
@@ -146,7 +149,8 @@ Follow these instructions if you would like to use Visual Studio Code (VSC)
  - if 'Hello World' is printed in the terminal you are good to continue. 
 
 ## Intalling CattleRealsense
- In the terminal type ```python3 -m pip install CattleRealsense==0.1.7``` or ```sudo python3 -m pip install CattleRealsense==0.1.7```
+In the terminal type ```python3 -m pip install CattleRealsense==0.1.7``` or ```sudo python3 -m pip install CattleRealsense==0.1.7```. 
+Make sure to pip install all the requiered packages listed at the top of this page.
 
 ## How to threshold png files
 To get an accurate threshold it is imporant to crop the image horizontally to the smallest area needed.
