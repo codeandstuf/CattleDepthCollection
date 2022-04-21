@@ -5,4 +5,5 @@ numpy
 imutils
 pynput
 tk
+pyrealsense2
 keyboard
