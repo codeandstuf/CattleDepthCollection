@@ -97,7 +97,7 @@ videoTake = vc()
 videoTake.runCamera(self, dist_to_ground, xCord, yCord, save_loc):
 ```
 
-# How to convert .bag to .png
+## How to convert .bag to .png
 During data collection all files will be saved as .bag. This makes it hard to use. To convert the .bag files to .png follow the following code
 
 ```
