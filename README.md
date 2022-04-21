@@ -134,7 +134,7 @@ inputFolder = path to .png files
 outputFolder = path to save threshold results
 extract.setCrop(inputFolder, outputFolder)
 ```
-## Alternative to threshold png files
+## Alternative approach to threshold png files
 To prevent having to setup the crop every time you may input the parameters directly.
 ```
 from CattleRealsense.ThresholdExtract import ThresholdExtract as te
@@ -191,7 +191,7 @@ enter this into the terminal to run the script
 ```sudo python3 -m name.py``` Where name is the name of the file you have your work in.
 Make sure your terminal is in the directory where you saved your file.
 
-## Alternative to threshold png files
+## Alternative approach to threshold png files
 To prevent having to setup the crop every time you may input the parameters directly.
 ```
 from CattleRealsense.ThresholdExtract import ThresholdExtract as te
