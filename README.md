@@ -69,7 +69,7 @@ from CattleRealsense.PictureCapture import PictureCapture as ps
 #Instance of a PictureCapture
 pictureTake = ps()
 #fill in parameters to match desired 
-pictureTake.runCamera(dist_to_ground, xCord, yCord, number_of_pics, sec_between_pics, save_location):
+pictureTake.runCamera(dist_to_ground, xCord, yCord, number_of_pics, sec_between_pics, save_location)
 ```
 All recording processes will stop when user ends program 
 
@@ -105,7 +105,7 @@ from CattleRealsense import PictureCapture as ps
 #Instance of a PictureCapture
 videoTake = vc()
 #fill in parameters to match desired 
-videoTake.runCamera(self, dist_to_ground, xCord, yCord, save_loc):
+videoTake.runCamera(self, dist_to_ground, xCord, yCord, save_loc)
 ```
 
 ## How to convert .bag to .png
