@@ -21,7 +21,7 @@ Picturecapture, Videocapture, and ConvertToPNG can only be run on a Windows plat
 - keyboard
 - numpy
 - tkinter
-- 
+
 ## Package Requierments: Thresholding
 - opencv-python
 - keyboard
