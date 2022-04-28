@@ -14,7 +14,15 @@ Picturecapture, Videocapture, and ConvertToPNG can only be run on a Windows plat
 - python (any version since 3.6 to 3.9)
 - code editor (Visual Studio Code is what I reccomend)
 
-## Package Requierments
+## Package Requierments: Collection & .bag to .png
+- opencv-python
+- time
+- datetime
+- keyboard
+- numpy
+- tkinter
+- 
+## Package Requierments: Thresholding
 - opencv-python
 - keyboard
 - numpy
@@ -106,7 +114,7 @@ During data collection all files will be saved as .bag. This makes it hard to us
 ```
 from CattleRealsense.ConvertToPNG import ConvertToPNG as convert
 
-con = conver()
+con = convert()
 
 #inputFolder = Path to .bag folder 
 #outputFolder = path to save .png created
@@ -114,7 +122,7 @@ con = conver()
 #toolspath will likely be "C:\\Program Files (x86)\\Intel RealSense SDK 2.0\\tools\\"
 
 #run the conversion program
-con.convert(inputFolder, outputFolder, toolsPath):
+con.convert(inputFolder, outputFolder, toolsPath)
 ```
 
 ## How to threshold png files
